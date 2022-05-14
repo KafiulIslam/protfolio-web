@@ -1,0 +1,39 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange_color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-header {
+    width: 50%;
+
+    padding: 5%;
+}
+
+.hire-me-button {
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
