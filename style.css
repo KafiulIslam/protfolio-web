@@ -37,3 +37,13 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+.think-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-body {
+    padding-right: 10%;
+}
