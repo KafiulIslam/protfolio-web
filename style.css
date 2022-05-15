@@ -13,7 +13,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -46,4 +46,45 @@ section {
 
 .experience-body {
     padding-right: 10%;
+}
+
+.experience-style {
+    padding-left: 5%;
+    /* background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+    transform: rotate(100); */
+}
+
+
+.experience-item {
+
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    border-radius: 16px;
+
+
+}
+
+#boomdevs {
+    border-left: 8px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#upwork {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+footer p {
+    text-align: center;
+    margin-top: 2%;
 }
