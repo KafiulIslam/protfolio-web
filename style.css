@@ -14,6 +14,7 @@ h1 {
 }
 
 .flexible-container {
+    margin-top: 50px;
     display: flex;
 }
 
@@ -25,6 +26,8 @@ h1 {
 
 .hire-me-button {
 
+    margin-top: 10;
+    margin-right: 20px;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
@@ -32,6 +35,8 @@ h1 {
     padding: 10px 40px;
     border-radius: 8px;
 }
+
+
 
 .top-banner {
     background-image: url(images/top-banner.png);
@@ -67,9 +72,24 @@ h1 {
     padding-right: 1%;
     padding-bottom: 2%;
     border-radius: 16px;
-
+    position: relative;
 
 }
+
+.download-button {
+    position: absolute;
+    right: 0;
+    top: 51px;
+}
+
+.title-button {
+    align-items: justify;
+    display: flex;
+
+}
+
+
+
 
 #boomdevs {
     border-left: 8px solid;
@@ -77,7 +97,7 @@ h1 {
     border-image-slice: 1;
 }
 
-#upwork {
+#pandascrow {
     border-left: 8px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
